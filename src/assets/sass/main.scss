@@ -1,0 +1,128 @@
+@charset 'utf-8';
+@import '../../../node_modules/bulma/bulma.sass';
+
+html {
+    scroll-behavior: smooth;
+}
+
+.cloud svg {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.bg {
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.is-dark-transparency {
+    background-color: #000;
+}
+
+.is-box-transparent {
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 30em;
+    padding: 2rem;
+    text-align: center;
+}
+
+.activity-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.activity1 {
+    background-image: url('../images/pompiers_flame.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 16px;
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 95%;
+    height: 75vh;
+}
+.activity2 {
+    background-image: url('../images/Best-Audio-Engineering-Schools_inversed.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 16px;
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 95%;
+    height: 75vh;
+}
+.activity3 {
+    background-image: url('../images/code4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 16px;
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 95%;
+    height: 75vh;
+}
+.activity4 {
+    background-image: url('../images/reseau_inversed.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 16px;
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 95%;
+    height: 75vh;
+}
+
+.container-text {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 44%;
+    height: 50%;
+    padding: 0.8em;
+}
+
+.has-background-dark-black {
+    background-color: #000;
+}
+
+.typing {
+    border-right: 0.15em solid white;
+    animation: typing 1s steps(30, end) infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}

@@ -15,11 +15,11 @@ const Header = () => {
       </div> */}
             <div id="navbarMenu" className="navbar-menu">
                 <div className="navbar-end">
-                    <a className="navbar-item has-text-white" href="#about">
-                        About
+                    <a className="navbar-item has-text-white" href="#apropos">
+                        A propos
                     </a>
-                    <a className="navbar-item has-text-white" href="#projects">
-                        Projects
+                    <a className="navbar-item has-text-white" href="#projets">
+                        Projets
                     </a>
                     <a className="navbar-item has-text-white" href="#contact">
                         Contact

@@ -1,12 +1,12 @@
-
+// Me.timcreated@reply-n0-website!
 const Contact = () => {
     return (
         <section id="contact" className="hero is-fullheight-with-navbar">
         <div className="hero-body">
-            <div className="container">
+            <div className="container is-flex is-flex-direction-column">
                 <h1 className="title has-text-centered">Contact</h1>
-                <h2 className="subtitle has-text-centered">I'm sure you and I have something to say. Let's share it.</h2>
-                <form>
+                <h2 className="subtitle has-text-centered">Je suis sûr que vous avez quelque chose d'intéressant à dire. Partagez-le.</h2>
+                {/* <form>
                     <div className="field">
                         <label className="label">Name</label>
                         <div className="control">
@@ -20,13 +20,13 @@ const Contact = () => {
                             <input className="input" type="email" placeholder="hello@its.me" />
                             <span className="icon is-small is-left">
                                 <i className="fas fa-paper-plane"></i>
-                            </span>
+                            </span> */}
                             {/* <span className="icon is-small is-right">
                                 <i className="fas fa-exclamation-triangle"></i>
-                            </span> */}
+                            </span>
                         </div>
                         {/* <p className="help is-danger">This email is invalid</p> */}
-                    </div>
+                    {/* </div>
 
                     <div className="field">
                         <label className="label">Subject</label>
@@ -51,13 +51,16 @@ const Contact = () => {
 
                     <div className="field is-grouped">
                         <div className="control">
-                            <button className="button is-link">Submit</button>
+                            <button className="button is-black has-text-white">Submit</button>
                         </div>
                         <div className="control">
-                            <button className="button is-link is-light">Cancel</button>
+                            <button className="button is-dark has-text-white">Cancel</button>
                         </div>
                     </div>
-                </form>
+                </form> */}
+                <div className="buttons is-justify-content-center">
+                    <a className="button is-black has-text-white" href="mailto:me@timcreated.me">Envoyez moi un email</a>
+                    </div>
             </div>
         </div>
     </section>

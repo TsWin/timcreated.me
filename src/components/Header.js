@@ -18,7 +18,7 @@ const Header = () => {
                     <a className="navbar-item has-text-white" href="#apropos">
                         A propos
                     </a>
-                    <a className="navbar-item has-text-white" href="#projets">
+                    <a className="navbar-item has-text-white" href="/projects">
                         Projets
                     </a>
                     <a className="navbar-item has-text-white" href="#contact">

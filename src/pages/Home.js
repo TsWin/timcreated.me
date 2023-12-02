@@ -64,7 +64,7 @@ const Home = () => {
                     <div className="container-text">
                         <h2 className="title has-text-white">Son</h2>
                         <p className="has-text-white">
-                        Depuis ma petite enfance jusqu'à mes 15 ans, j'ai joué le rôle de technicien son avec mon père lors de spectales de démonstration de talents. Mon job consistait à installer et configurer les équipements son et lumières pour assurer un spectacle réussi. Bien que je continue d'apporter mon aide de temps à autre, je m'assure qu'ils n'aient pas besoin de faire appel à un professionnel lorsque ce n'est pas vraiment nécessaire. C'est ma façon de contribuer à la réussite de ces événements tout en gardant une ambiance légère et plaisante.
+                        Depuis ma petite enfance jusqu'à mes 15 ans, j'ai joué le rôle de technicien son avec mon père lors de spectales de démonstration de talents. Mon job consistait à installer et configurer les équipements son et lumières pour assurer un spectacle réussi. Bien que je continue d'apporter mon aide de temps à autre, je m'assure qu'ils n'aient pas besoin de faire appel à un professionnel lorsque ce n'est pas vraiment nécessaire.
                         </p>
                     </div>
                 </div>
@@ -119,7 +119,7 @@ const Home = () => {
                                     <p className="paragraph has-text-white">Terminal de Vente de Consommations Evènementielle -- En cours de réalisation</p>
                                 </div>
                                 <div className="tile is-child">
-                                        <a href="https://labort.timcreated.me" className="button is-small is-outlined">
+                                        <a href="/projects/#1" className="button is-small is-outlined">
                                             <span className="icon">
                                                 <i className="fas fa-question-circle"></i>
                                             </span>
@@ -142,7 +142,7 @@ const Home = () => {
                                     <p className="paragraph has-text-white">Outil d'Administration des Services d'Incendie et de Secours {/* | Est un logiciel d'administration qui permet la création de rapports d'interventions, la gestion du personnel et des vacations.*/}</p>
                                 </div>
                                 <div className="tile is-child">
-                                        <a href="https://sgpo.timcreated.me" className="button is-small is-outlined">
+                                        <a href="/projects/#2" className="button is-small is-outlined">
                                             <span className="icon">
                                                 <i className="fas fa-question-circle"></i>
                                             </span>
@@ -177,7 +177,7 @@ const Home = () => {
                                     <p className="paragraph has-text-white">Le site web du Labo RT de l'IUT Annecy</p>
                                 </div>
                                 <div className="tile is-child">
-                                        <a href="https://labort.timcreated.me" className="button is-small is-outlined">
+                                        <a href="/projects/#3" className="button is-small is-outlined">
                                             <span className="icon">
                                                 <i className="fas fa-question-circle"></i>
                                             </span>
@@ -200,7 +200,7 @@ const Home = () => {
                                     <p className="paragraph has-text-white">Api qui permet de ping et connaitre le statut des sites web.</p>
                                 </div>
                                 <div className="tile is-child">
-                                        <a href="https://pingly.app" className="button is-small is-outlined">
+                                        <a href="/projects/#4" className="button is-small is-outlined">
                                             <span className="icon">
                                                 <i className="fas fa-question-circle"></i>
                                             </span>
@@ -235,7 +235,7 @@ const Home = () => {
                                     <p className="paragraph has-text-white">Un bot discord qui assure la sécurité des serveurs des communautés. Siteweb, Api, Application NodeJs (Bot) constituent ce service.</p>
                                 </div>
                                 <div className="tile is-child">
-                                        <a href="https://discguard.xyz" className="button is-small is-outlined">
+                                        <a href="/projects/#5" className="button is-small is-outlined">
                                             <span className="icon">
                                                 <i className="fas fa-question-circle"></i>
                                             </span>
@@ -258,7 +258,7 @@ const Home = () => {
                                     <p className="paragraph has-text-white">Un module NPM qui facilite la génération de tokens, clés et licenses.</p>
                                 </div>
                                 <div className="tile is-child">
-                                        <a href="https://www.npmjs.com/package/tokeylic-gen" className="button is-small is-outlined">
+                                        <a href="/projects/#6" className="button is-small is-outlined">
                                             <span className="icon">
                                                 <i className="fas fa-question-circle"></i>
                                             </span>
